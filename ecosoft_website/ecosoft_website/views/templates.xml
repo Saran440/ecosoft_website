@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Customize header  -->
+    <template id="index">
+        <t t-call="website.layout">
+            <t t-set="title">Ecosoft | Your ERP Partner</t>
+            <div class="oe_structure">
+                <div class="container">
+                    <t t-foreach="teachers" t-as="teacher">
+                        <p>
+                            <a t-attf-href="/ecosoft/{{ slug(teacher) }}">
+                                <t t-esc="teacher.id"/>
+                                >>>>
+                                <t t-esc="teacher.name"/>
+                            </a>
+                        </p>
+                    </t>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="biography">
+        <t t-call="website.layout">
+            <t t-set="title">Academy</t>
+            <div class="oe_structure"/>
+            <div class="oe_structure">
+                <div class="container">
+                    <p>
+                        <h3 t-field="person.name"/>
+                        <p>Last modified: <i t-field="person.write_date" t-options='{"widget": "relative"}'/></p>
+                        <div t-field="person.biography"/>
+                    </p>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="layout" name="Main layout" inherit_id="website.layout">
+        <xpath expr="//header//a[hasclass('navbar-brand')]" position="replace">
+            <a href="/" class="navbar-brand logo">
+                <span t-field="res_company.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+            </a>
+        </xpath>
+    </template>
+    <!-- <template id="mystyle" name="My style" inherit_id="website.assets_frontend">
+        <xpath expr="link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/new_module/static/scss/style.scss"/>
+        </xpath>
+    </template> -->
+    <template id="assets_frontend" inherit_id="website.assets_frontend" name="Blog Front-end assets">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="/ecosoft_website/static/scss/style.scss"/>
+        </xpath>
+    </template>
+
+    <template id="footer_custom" inherit_id="website.layout" name="Footer">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <!-- <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                <div style="text-align: center">
+                    <div class="image_footer">
+                        <span t-field="res_company.logo" t-options="{'widget': 'image'}" role="img" t-att-title="res_company.name"/>
+                    </div>
+                    <div>
+                        <b>
+                            <span t-field="res_company.name"></span>
+                            <span>Head Office</span>
+                        </b>
+                    </div>
+                    <div class="address">
+                        <span t-field="res_company.street"></span>
+                        <span t-field="res_company.street2"></span>
+                        <span t-field="res_company.city"></span>
+                        <span t-field="res_company.state_id"></span>
+                        <span t-field="res_company.zip"></span>
+                        <span t-field="res_company.country_id"></span>
+                    </div>
+
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <section class="s_text_block pt16 pb8">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h5>Phone</h5>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-phone"/> <span t-field="res_company.phone"/></li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-lg-4" id="connect">
+                                    <h5>Mobile</h5>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-mobile"/> <span>+66 (3) 1 841 7480</span></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h5>e-Mail</h5>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-envelope"/>  <span t-field="res_company.email"/></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div> -->
+            <section class="s_company_team">
+                <div class="container">
+                    <!-- <h1 style="text-align: center;" class="o_default_snippet_text">Meet the Executive Team</h1> -->
+                    <div class="text-center">
+                        <div class="image_footer">
+                            <span t-field="res_company.logo" t-options="{'widget': 'image'}" role="img" t-att-title="res_company.name"/>
+
+                        </div>
+                        <div>
+                            <b>
+                                <span t-field="res_company.name"></span>
+                                <span>Head Office</span>
+                            </b>
+                        </div>
+                        <div class="address">
+                            <span t-field="res_company.street"></span>
+                            <span t-field="res_company.street2"></span>
+                            <span t-field="res_company.city"></span>
+                            <span t-field="res_company.state_id"></span>
+                            <span t-field="res_company.zip"></span>
+                            <span t-field="res_company.country_id"></span>
+                        </div>
+                    </div>
+                    <div class="row s_nb_column_fixed text-center">
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="row s_col_no_resize s_col_no_bgcolor">
+                                <div class="col-lg-2">
+                                    <img alt="Phone" src="/ecosoft_website/static/src/img/phone_icon.png" class="img-fluid rounded-circle d-block mx-auto shadow image_footer_center"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h7 class="o_default_snippet_text">Phone</h7>
+                                    <p class="text-muted o_default_snippet_text">
+                                        <span t-field="res_company.phone"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="row s_col_no_resize s_col_no_bgcolor">
+                                <div class="col-lg-2">
+                                    <img alt="Mobile" src="/ecosoft_website/static/src/img/mobile_icon.png" class="img-fluid rounded-circle d-block mx-auto shadow"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h8 class="o_default_snippet_text">Mobile</h8>
+                                    <p class="text-muted o_default_snippet_text">
+                                        <span>+66 (3) 1 841 7480</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="row s_col_no_resize s_col_no_bgcolor">
+                                <div class="col-lg-2">
+                                    <img alt="eMail" src="/ecosoft_website/static/src/img/email_icon.png" class="img-fluid rounded-circle d-block mx-auto shadow"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h8 class="o_default_snippet_text">e-Mail</h8>
+                                    <p class="text-muted o_default_snippet_text">
+                                        <span t-field="res_company.email"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
+</odoo>
