@@ -82,11 +82,10 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
 
                 <section class="s_text_image pt32 pb32 bg-green top-5-percent">
-                    <div class="container">
+                    <div class="container main-body">
                         <div class="row align-items-center">
                             <div class="col-lg-6 pt16 pb16">
                                 <h2 class="o_default_snippet_text">
@@ -116,6 +115,73 @@
                             </div>
                             <div class="col-lg-6 pt16 pb16">
                                 <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="container main-body">
+                    <div class="text-center top-5-percent">
+                        <h2>
+                            <b>
+                                <span>FOLLOW</span>
+                                <span id="green">US</span>
+                            </b>
+                        </h2>
+                        <p>Subscribe to receive updates and exclusive offers.</p>
+                        <!-- <input type="text" class="form-control o_website_form_input" name="contact_name"
+                            t-att-value="request.params.get('contact_name', '')" required=""/> -->
+                        <div class="s_btn pb0 pt16" data-name="Button">
+                            <a href="#" class="btn btn-success btn-md button-round btn-width-15-percent">
+                                Subscribe
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="s_cover parallax bg-black-50 pt40 pb0 top-5-percent" data-scroll-background-ratio="0" style="background-image: none;">
+                    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url(&quot;/website/static/src/img/backgrounds/type.jpg&quot;); background-position: 50% 0px;"/>
+                    <div class="container main-body">
+                        <div class="row s_nb_column_fixed text-center" id="white">
+                            <div class="col-lg-12 s_title" data-name="Title">
+                                <span>What Cliant Say</span>
+                                <br/>
+                                <h2 class="s_title_thin o_default_snippet_text">
+                                    <span>CLIENTS</span>
+                                    <span id="green">REVIEW</span>
+                                </h2>
+                            </div>
+                            <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                                <h2>&quot;</h2>
+                                <p class="lead o_default_snippet_text">The National Science and Technology Development Agency (NSTDA) was established in 1991. NSTDA's Principal mandate is to conduct and support research, development, and engineering, to provide technology transfer, and to develop manpower and xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                            <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                                <p class="lead o_default_snippet_text">Somboon Thunyavan <br/> Director- Square Panel Systems</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="s_references pt56 pb56">
+                    <div class="container main-body">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="/website/static/src/img/library/sweet.jpg" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
+                            </div>
+                            <div class="col-lg-2">
+                                <img src="/website/static/src/img/library/wine.jpg" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
+                            </div>
+                            <div class="col-lg-2">
+                                <img src="/website/static/src/img/library/mobile.jpg" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
+                            </div>
+                            <div class="col-lg-2">
+                                <img src="/website/static/src/img/library/rocket.jpg" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
+                            </div>
+                            <div class="col-lg-2">
+                                <img src="/website/static/src/img/library/ice_coffe.jpg" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
+                            </div>
+                            <div class="col-lg-2">
+                                <img src="/website/static/src/img/library/compass.jpg" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
                             </div>
                         </div>
                     </div>
@@ -159,9 +225,67 @@
     <!-- Inherit Last Page Footer -->
     <template id="footer_custom" inherit_id="website.layout" name="Footer">
         <xpath expr="//div[@id='footer']" position="replace">
-            <section class="s_company_team">
+            <section class="s_features_grid pt24 pb24 bg-green">
+                <div class="container main-body">
+                    <div class="text-center">
+                        <div class="image_footer">
+                            <span t-field="res_company.logo" t-options="{'widget': 'image'}" role="img" t-att-title="res_company.name"/>
+                        </div>
+                        <div>
+                            <b>
+                                <span t-field="res_company.name"></span>
+                                <span>Head Office</span>
+                            </b>
+                        </div>
+                        <div class="address">
+                            <span t-field="res_company.street"></span>
+                            <span t-field="res_company.street2"></span>
+                            <span t-field="res_company.city"></span>
+                            <span t-field="res_company.state_id"></span>
+                            <span t-field="res_company.zip"></span>
+                            <span t-field="res_company.country_id"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="s_col_no_bgcolor pb24 col-md-4">
+                            <div class="row">
+                                <div class="col-sm-12 pt16 pb16" data-name="Box">
+                                    <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"/>
+                                    <div class="s_features_grid_content">
+                                        <h4 class="o_default_snippet_text">Phone</h4>
+                                        <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pb24 col-md-4">
+                            <div class="row">
+                                <div class="col-sm-12 pt16 pb16" data-name="Box">
+                                    <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"/>
+                                    <div class="s_features_grid_content">
+                                        <h4 class="o_default_snippet_text">Mobile</h4>
+                                        <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pb24 col-md-4">
+                            <div class="row">
+                                <div class="col-sm-12 pt16 pb16" data-name="Box">
+                                    <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"/>
+                                    <div class="s_features_grid_content">
+                                        <h4 class="o_default_snippet_text">e-Mail</h4>
+                                        <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section class="s_company_team">
                 <div class="container">
-                    <!-- <h1 style="text-align: center;" class="o_default_snippet_text">Meet the Executive Team</h1> -->
                     <div class="text-center">
                         <div class="image_footer">
                             <span t-field="res_company.logo" t-options="{'widget': 'image'}" role="img" t-att-title="res_company.name"/>
@@ -226,7 +350,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
         </xpath>
     </template>
 </odoo>
