@@ -1,5 +1,5 @@
-.test {
-    background: blue;
+p {
+    font-size: 14px;
 }
 .image_footer {
   display: block;
@@ -14,4 +14,40 @@
 }
 .image_footer_center {
     width: 5%;
+}
+.top-5-percent{
+    margin-top: 5%;
+}
+.bottom-5-percent{
+    margin-bottom: 5%;
+}
+.bottom-20-px{
+    margin-bottom: 20px;
+}
+.main-body{
+    width: 70%;
+}
+.button-round {
+    border-radius: 25px;
+}
+.bg-whitesmoke {
+    background-color: WhiteSmoke;
+}
+.bg-green {
+    background-color: #44b944;
+}
+.left-10-px{
+    margin-left: 10px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-bold{
+    font-weight: bold;
+}
+#green{
+    color:green;
+}
+#white{
+    color:white;
 }
