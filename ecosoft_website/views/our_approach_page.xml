@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Contact Us page -->
+        <record id="our_approach" model="ir.ui.view">
+            <field name="name">Our Approach</field>
+            <field name="type">qweb</field>
+            <field name="key">website.test</field>
+            <field name="arch" type="xml">
+                <t name="Test Us" t-name="website.test">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <div class="oe_structure">
+                                <section class="pt8 pb8">
+                                    <div class="container">
+                                        <div class="row s_nb_column_fixed">
+                                            <div class="col-lg-12 s_title pt16 pb16">
+                                                <h1>our_approach</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="container mt-2">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <div class="oe_structure">
+                                            <section class="s_text_block">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <p>
+                                                                Contact us about anything related to our company or services.<br/>
+                                                                We'll do our best to get back to you as soon as possible.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div class="text-center my-3" name="mail_button">
+                                            <a role="button" t-attf-href="mailto:{{ res_company.email }}" class="btn btn-primary" id="o_contact_mail">Send us an email</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <t t-call="website.company_description"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oe_structure mt-2"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
+    </data>
+</odoo>

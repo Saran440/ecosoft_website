@@ -31,10 +31,10 @@ p {
     border-radius: 25px;
 }
 .bg-whitesmoke {
-    background-color: WhiteSmoke;
+    background-color: #f4f4f4;
 }
 .bg-green {
-    background-color: #44b944;
+    background-color: #75bf44;
 }
 .left-10-px{
     margin-left: 10px;
@@ -45,8 +45,20 @@ p {
 .font-bold{
     font-weight: bold;
 }
-.btn-width-15-percent{
+.width-15-percent{
     width: 15%;
+}
+.width-25-percent {
+    width:25%;
+}
+.img-filter {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #green{
     color:green;

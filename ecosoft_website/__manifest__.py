@@ -15,7 +15,9 @@ Odoo Web Editor widget.
     'data': [
         'security/ir.model.access.csv',
         'data/data.xml',
+        # 'data/data_submenu.xml',
         'views/templates.xml',
         'views/theme_customize_view.xml',
+        # 'views/our_approach_page.xml',
     ],
 }
