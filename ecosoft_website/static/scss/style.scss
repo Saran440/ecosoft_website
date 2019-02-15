@@ -1,13 +1,23 @@
 p {
     font-size: 14px;
 }
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid #75bf44;
+    background-color: transparent;
+}
+.carousel-indicators li.active {
+    background: #75bf44;
+}
 .image_footer {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-  margin-bottom: 5px;
-  margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 .text-center {
     text-align: center;
@@ -61,7 +71,7 @@ p {
   margin-right: auto;
 }
 #green{
-    color:green;
+    color:#75bf44;
 }
 #white{
     color:white;
