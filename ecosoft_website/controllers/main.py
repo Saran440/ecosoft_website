@@ -5,10 +5,7 @@ from odoo import http
 class RouteWebsite(http.Controller):
     @http.route('/ecosoft/', auth='public', website=True)
     def index(self, **kw):
-        Teachers = http.request.env['theme.customize']
-        return http.request.render('ecosoft_website.index', {
-            'teachers': Teachers.search([]),
-        })
+        return http.request.render('ecosoft_website.index')
 
     @http.route('/ecosoft/<model("theme.customize"):teacher>/',
                 auth='public', website=True)

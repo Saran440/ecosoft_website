@@ -1,6 +1,9 @@
 p {
     font-size: 14px;
 }
+.main-body{
+    width: 70%;
+}
 .carousel-indicators li {
     width: 10px;
     height: 10px;
@@ -34,9 +37,6 @@ p {
 .bottom-20-px{
     margin-bottom: 20px;
 }
-.main-body{
-    width: 70%;
-}
 .button-round {
     border-radius: 25px;
 }
@@ -62,13 +62,23 @@ p {
     width:25%;
 }
 .img-filter {
-  -webkit-filter: brightness(0) invert(1);
-  filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 .img-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.img-full {
+    width: 100%
 }
 #green{
     color:#75bf44;

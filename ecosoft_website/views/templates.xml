@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
+    <!-- Add scss style in module -->
+    <template id="assets_frontend" inherit_id="website.assets_frontend" name="Blog Front-end assets">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="/ecosoft_website/static/scss/style.scss"/>
+        </xpath>
+    </template>
+
     <!-- Page Index  -->
     <template id="index">
         <t t-call="website.layout">
@@ -42,7 +50,7 @@
                     <div class="row d-flex align-items-stretch top-5-percent">
                         <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
                             <div class="card bg-whitesmoke">
-                                <img class="card-img-top width-25-percent img-center top-5-percent" src="/ecosoft_website/static/src/img/iconForHome/icon_homeServices_1.png" alt="Home Service1" data-original-title="" title="" aria-describedby="tooltip231818"/>
+                                <img class="card-img-top width-25-percent img-center top-5-percent" src="/ecosoft_website/static/src/img/iconForHome/icon_homeServices_1.png" alt="Home Service1" aria-describedby="tooltip231818"/>
                                 <div class="card-body text-center">
                                     <h5 class="card-title o_default_snippet_text">
                                         <b>
@@ -107,7 +115,7 @@
                     </div>
                 </div>
 
-                <section class="s_text_image pt32 pb32 bg-green top-5-percent">
+                <section class="s_text_image bg-green top-5-percent">
                     <div class="container main-body">
                         <div class="row align-items-center">
                             <div class="col-lg-6 pt16 pb16">
@@ -150,8 +158,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 pt16 pb16">
-                                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                            <div class="col-lg-6 pt0 pb0">
+                                <img src="/web/image/website.s_text_image_default_image"/>
                             </div>
                         </div>
                     </div>
@@ -263,30 +271,43 @@
                     </div>
                 </div>
 
-                <section class="s_references pt56 pb56">
-                    <div class="container main-body">
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_1.png" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
+                <div id="logo_ref" class="s_carousel carousel slide s_carousel_default top-5-percent bottom-5-percent" data-interval="3000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-name="Slide">
+                            <div class="container main-body">
+                                <div class="row">
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_1.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_2.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_3.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_4.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_5.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_6.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                </div>
                             </div>
-                            <div class="col-lg-2">
-                                <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_2.png" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
+                        </div>
+                        <div class="carousel-item" data-name="Slide">
+                            <div class="container main-body">
+                                <div class="row">
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_7.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_8.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_9.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_10.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_11.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_12.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                </div>
                             </div>
-                            <div class="col-lg-2">
-                                <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_3.png" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
-                            </div>
-                            <div class="col-lg-2">
-                                <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_4.png" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
-                            </div>
-                            <div class="col-lg-2">
-                                <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_5.png" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
-                            </div>
-                            <div class="col-lg-2">
-                                <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_6.png" class="img img-fluid" alt="Demo Logo" data-original-title="" title="" aria-describedby="tooltip299560"/>
+                        </div>
+                        <div class="carousel-item" data-name="Slide">
+                            <div class="container main-body">
+                                <div class="row">
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_13.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_14.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_15.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
         </t>
     </template>
@@ -308,18 +329,12 @@
         </t>
     </template>
 
+    <!-- logo brand -->
     <template id="layout" name="Main layout" inherit_id="website.layout">
         <xpath expr="//header//a[hasclass('navbar-brand')]" position="replace">
             <a href="/" class="navbar-brand logo">
                 <span t-field="res_company.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
             </a>
-        </xpath>
-    </template>
-
-    <!-- Add scss style in module -->
-    <template id="assets_frontend" inherit_id="website.assets_frontend" name="Blog Front-end assets">
-        <xpath expr="." position="inside">
-            <link rel="stylesheet" type="text/scss" href="/ecosoft_website/static/scss/style.scss"/>
         </xpath>
     </template>
 
@@ -329,7 +344,7 @@
             <section class="s_features_grid pt24 pb10 bg-green" id="white">
                 <div class="container main-body">
                     <div class="text-center">
-                        <div class="image_footer img-filter">
+                        <div class="image_footer img-filter width-15-percent">
                             <span t-field="res_company.logo" t-options="{'widget': 'image'}" role="img" t-att-title="res_company.name"/>
                         </div>
                         <div class="font-bold">

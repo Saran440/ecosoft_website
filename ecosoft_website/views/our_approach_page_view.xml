@@ -6,9 +6,9 @@
         <record id="our_approach" model="ir.ui.view">
             <field name="name">Our Approach</field>
             <field name="type">qweb</field>
-            <field name="key">website.test</field>
+            <field name="key">website.approach</field>
             <field name="arch" type="xml">
-                <t name="Test Us" t-name="website.test">
+                <t name="Approach" t-name="website.approach">
                     <t t-call="website.layout">
                         <div id="wrap">
                             <div class="oe_structure">
@@ -53,6 +53,12 @@
                     </t>
                 </t>
             </field>
+        </record>
+
+        <record id="our_approach_page" model="website.page">
+            <field name="url">/our_approach</field>
+            <field name="website_published">True</field>
+            <field name="view_id" ref="our_approach"/>
         </record>
 
     </data>
