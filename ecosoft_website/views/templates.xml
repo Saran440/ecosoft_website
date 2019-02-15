@@ -27,7 +27,7 @@
                             </div>
                             <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
                                 <div class="s_btn pb0 pt16" data-name="Button">
-                                    <a href="#" class="btn btn-success bg-green btn-md o_default_snippet_text button-round">
+                                    <a href="/solutions" class="btn btn-success bg-green btn-md o_default_snippet_text button-round">
                                         Learn more
                                     </a>
                                 </div>
@@ -176,11 +176,13 @@
                         <p>Subscribe to receive updates and exclusive offers.</p>
                         <!-- <input type="text" class="form-control o_website_form_input" name="contact_name"
                             t-att-value="request.params.get('contact_name', '')" required=""/> -->
-                        <div class="s_btn pb0 pt16" data-name="Button">
-                            <a href="#" class="btn btn-success bg-green btn-md button-round width-15-percent">
-                                Subscribe
-                            </a>
-                        </div>
+                        <form name="form_subscribe" action="#" method="get">
+                            <input type="text" class="form-control o_website_form_input" name="contact_name"/>
+                            <button type="submit" class="s_btn pb0 pt16 btn btn-success bg-green btn-md button-round width-15-percent">Subscribe</button>
+                            <div class="s_btn pb0 pt16" data-name="Button">
+                                <input type="submit" class="btn btn-success bg-green btn-md button-round width-15-percent" value="Subscribe"/>
+                            </div>
+                        </form>
                     </div>
                 </div>
 
