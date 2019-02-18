@@ -10,45 +10,179 @@
             <field name="arch" type="xml">
                 <t name="Solution" t-name="website.solutions">
                     <t t-call="website.layout">
-                        <div id="wrap">
-                            <div class="oe_structure">
-                                <section class="pt8 pb8">
-                                    <div class="container">
-                                        <div class="row s_nb_column_fixed">
-                                            <div class="col-lg-12 s_title pt16 pb16">
-                                                <h1>Solution</h1>
+                        <t t-set="title">Ecosoft | Your ERP Partner</t>
+                        <div class="oe_structure">
+                            <section class="s_cover parallax bg-black-50 pb40 pt128" data-scroll-background-ratio="0" style="background-image: none;">
+                                <span class="s_parallax_bg oe_img_bg oe_custom_bg img-dim" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/solutions/banner_solution.jpg&quot;); background-position: 50% 0px;"/>
+                                <div class="container main-body">
+                                    <div class="row s_nb_column_fixed" id="white">
+                                        <div class="col-lg-12 s_title" data-name="Title">
+                                            <h1 class="s_title_thin o_default_snippet_text">
+                                                <span class="font-bold" id="white">OUR ODOO SOLUTION</span>
+                                            </h1>
+                                        </div>
+                                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                                            <p class="lead o_default_snippet_text">
+                                                <span id="smoke">Home | </span>
+                                                <span class="font-bold">Solutions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <div class="container main-body">
+                                <div class="top-5-percent">
+                                    <h2 class="bottom-20-px text-center">
+                                        <span>ENTERPRISE</span>
+                                        <span id="green">RESOURCE PLANNING</span>
+                                    </h2>
+                                    <div class="row s_nb_column_fixed">
+                                        <div class="col-lg-6 pt16 pb16">
+                                            <p class="text-muted o_default_snippet_text">
+                                                เป็นระบบจัดการองค์กรแบบองค์รวม สำหรับการจัดการทรัพยากรทั้งภายใน, ภายนอก รวมไปถึงทรัพย์สินที่จับต้องได้, ทรัพยากรด้านการเงิน, วัสดุและบุคลากรขององค์กร ERP เป็นระบบซอฟต์แวร์ขนาดใหญ่ที่มีเป้าหมายในการช่วยให้การส่งต่อข้อมูลของทุกฝ่ายในองค์กรเป็นไปอย่างราบรื่น โดยรวมถึงจัดการการเชื่อมต่อข้อมูลกับภายนอกด้วย
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 pt16 pb16">
+                                            <p class="text-muted o_default_snippet_text">
+                                                ด้วยประสบการณ์การวางระบบ Open Source ERP มายาวนาน เราเชื่อว่าไม่มีระบบใดที่เหมาะสมกับทุกธุรกิจและทุกความต้องการของลูกค้า เพื่อให้ได้โซลูชั่นที่เหมาะสม สิ่งที่เราทำคือคัดเลือกระบบ Open Source ERP ที่เหมาะที่สุดเพื่อตอบโจทย์ทางธุรกิจของลูกค้าแต่ละประเภท และจากการศึกษา Open Source ERP ทุกตัวในตลาด เราได้เลือกเฟ้นซอฟต์แวร์ที่ดีที่สุดในตลาดเวลานี้ นั่นคือ Odoo
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row align-items-center top-5-percent">
+                                    <div class="col-lg-6 pt16 pb16">
+                                        <h2 class="o_default_snippet_text" id="green">FEATURE</h2>
+                                        <div class="o_default_snippet_text">
+                                            <div class="row text-muted">
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Accounting &amp; Financial Management</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Document &amp; Management</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Analytic</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Payroll Management</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Customer &amp; Supplier Portal</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Service Management</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Sales Management</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Warehouse Management</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Project Management</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Purchase Management</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Manufacturing Management</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Human Resources</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">CRM</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">After-Sales Services</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">POS</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">Direct Marketing</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 pt8 pb8" data-name="Box">
+                                                    <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                                    <div class="s_features_grid_content">
+                                                        <p class="o_default_snippet_text font-16">and 200+ more application</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </section>
-                            </div>
-                            <div class="container mt-2">
-                                <div class="row">
-                                    <div class="col-lg-8">
-                                        <div class="oe_structure">
-                                            <section class="s_text_block">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-lg-12">
-                                                            <p>
-                                                                Contact us about anything related to our company or services.<br/>
-                                                                We'll do our best to get back to you as soon as possible.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </div>
-                                        <div class="text-center my-3" name="mail_button">
-                                            <a role="button" t-attf-href="mailto:{{ res_company.email }}" class="btn btn-primary" id="o_contact_mail">Send us an email</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <t t-call="website.company_description"/>
+                                    <div class="col-lg-6 pt16 pb16">
+                                        <img src="/ecosoft_website/static/src/img/background/solutions/img_solution.jpg" class="img img-fluid mx-auto"/>
                                     </div>
                                 </div>
                             </div>
-                            <div class="oe_structure mt-2"/>
+                            <section class="s_cover parallax bg-black-50 pt8 pb8" data-scroll-background-ratio="0" style="background-image: none;">
+                                <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_cover_default_image'); background-position: 50% 0;"/>
+                                <div class="container">
+                                    <div class="row s_nb_column_fixed">
+                                        <div class="col-lg-12 s_title" data-name="Title">
+                                            <h1 class="s_title_thin o_default_snippet_text" style="font-size: 62px; text-align: center;">Catchy Headline</h1>
+                                        </div>
+                                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                                            <p class="lead o_default_snippet_text" style="text-align: center;">Write one or two paragraphs describing your product, services or a specific feature.<br/> To be successful your content needs to be useful to your readers.</p>
+                                        </div>
+                                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                                            <a href="/aboutus" class="btn btn-delta rounded-circle o_default_snippet_text">About us</a>
+                                            <a href="/contactus" class="btn btn-primary rounded-circle o_default_snippet_text">Contact us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
                     </t>
                 </t>
