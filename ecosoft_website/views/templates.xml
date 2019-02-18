@@ -159,7 +159,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 pt0 pb0">
-                                <img src="/web/image/website.s_text_image_default_image"/>
+                                <img src="/ecosoft_website/static/src/img/background/homepage/home_img1.jpg" style="max-width:149%"/>
                             </div>
                         </div>
                     </div>
@@ -174,11 +174,8 @@
                             </b>
                         </h2>
                         <p>Subscribe to receive updates and exclusive offers.</p>
-                        <!-- <input type="text" class="form-control o_website_form_input" name="contact_name"
-                            t-att-value="request.params.get('contact_name', '')" required=""/> -->
                         <form name="form_subscribe" action="#" method="get">
-                            <input type="text" class="form-control o_website_form_input" name="contact_name"/>
-                            <button type="submit" class="s_btn pb0 pt16 btn btn-success bg-green btn-md button-round width-15-percent">Subscribe</button>
+                            <input type="email" class="form-control form-control-lg text-center width-60-percent" style="margin: 0 auto;" placeholder="Your E-mail" name="contact_email"/>
                             <div class="s_btn pb0 pt16" data-name="Button">
                                 <input type="submit" class="btn btn-success bg-green btn-md button-round width-15-percent" value="Subscribe"/>
                             </div>
@@ -193,7 +190,7 @@
                         <li data-target="#background_cliantReview" data-slide-to="2"/>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item oe_custom_bg oe_img_bg pt48 pb0 active" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/background_cliantReview.jpg&quot;);" data-name="Slide">
+                        <div class="carousel-item oe_custom_bg oe_img_bg pt48 pb0 active" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
                             <div class="container main-body">
                                 <div class="row content">
                                     <div class="row s_nb_column_fixed text-center" id="white">
@@ -216,7 +213,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item oe_custom_bg oe_img_bg pb0 pt48" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/background_cliantReview.jpg&quot;);" data-name="Slide">
+                        <div class="carousel-item oe_custom_bg oe_img_bg pb0 pt48" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
                             <div class="container main-body">
                                 <div class="row content">
                                     <div class="row s_nb_column_fixed text-center" id="white">
@@ -239,7 +236,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item oe_custom_bg oe_img_bg pb0 pt48" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/background_cliantReview.jpg&quot;);" data-name="Slide">
+                        <div class="carousel-item oe_custom_bg oe_img_bg pb0 pt48" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
                             <div class="container">
                                 <div class="row content">
                                     <div class="row s_nb_column_fixed text-center" id="white">
@@ -343,7 +340,7 @@
     <!-- Inherit Last Page Footer -->
     <template id="footer_custom" inherit_id="website.layout" name="Footer">
         <xpath expr="//div[@id='footer']" position="replace">
-            <section class="s_features_grid pt24 pb10 bg-green" id="white">
+            <section class="s_res_grid pt24 pb10 bg-green" id="white">
                 <div class="container main-body">
                     <div class="text-center">
                         <div class="image_footer img-filter width-15-percent">
@@ -380,7 +377,7 @@
                                     <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/iconForHome/icon_footer_2.png" alt="Mobile"/>
                                     <div class="s_features_grid_content">
                                         <p class="o_default_snippet_text font-bold">Mobile</p>
-                                        <p class="o_default_snippet_text">Wait Field mobile</p>
+                                        <p class="o_default_snippet_text">+66 (8) 1 841 7480</p>
                                     </div>
                                 </div>
                             </div>

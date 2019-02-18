@@ -61,6 +61,9 @@ p {
 .width-25-percent {
     width:25%;
 }
+.width-60-percent {
+    width:60%;
+}
 .img-filter {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
@@ -85,4 +88,20 @@ p {
 }
 #white{
     color:white;
+}
+
+input[type="email"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #A9A9A9;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="email"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
