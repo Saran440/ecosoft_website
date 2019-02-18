@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Regular.ttf') format('truetype');
+}
+body {
+    font-family: 'Kanit';
+}
 p {
     font-size: 14px;
 }
@@ -64,9 +71,12 @@ p {
 .width-60-percent {
     width:60%;
 }
-.img-filter {
+.img-convert-to-white {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
+}
+.img-dim {
+    filter: brightness(70%);
 }
 .img-center {
     display: block;
