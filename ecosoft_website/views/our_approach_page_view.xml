@@ -34,7 +34,7 @@
                                         <span>OUR</span>
                                         <span id="green">APPROACH</span>
                                     </h2>
-                                    <p>เข้าใจธุรกิจลูกค้าคือหัวใจสำคัญในความสำเร็จของระบบ ERP</p>
+                                    <p class="text-muted">เข้าใจธุรกิจลูกค้าคือหัวใจสำคัญในความสำเร็จของระบบ ERP</p>
                                 </div>
 
                                 <div class="row s_nb_column_fixed top-5-percent">
@@ -91,8 +91,71 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                <div class="top-5-percent">
+                                    <img src="/ecosoft_website/static/src/img/background/our_approach/infographic_1.jpg" class="img-fluid mx-auto"/>
+                                </div>
                             </div>
+
+                            <section class="s_cover parallax bg-whitesmoke pb40 pt40 top-5-percent" data-scroll-background-ratio="0" style="background-image: none;">
+                                <div class="container main-body text-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EsNrzZdXNss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                                </div>
+                            </section>
+
+                            <section class="s_features_grid pt48 pb24">
+                                <div class="container main-body">
+                                    <div class="row">
+                                        <div class="col-lg-6 s_col_no_bgcolor pb24">
+                                            <div class="row">
+                                                <div class="col-lg-12 pb24" data-name="Box">
+                                                    <h2 class="o_default_snippet_text">
+                                                        <span>AGILE</span>
+                                                        <span id="green">METHODOLOGY</span>
+                                                    </h2>
+                                                    <p class="text-muted o_default_snippet_text">
+                                                        เราเลือกวิถีทาง AGILE เพราะเราเชื่อว่าความยืดหยุ่น และการตอบสนองอย่างรวดเร็วคือหลักการที่ถูกต้องของโครงการด้านซอฟท์แวร์
+                                                    </p>
+                                                    <p class="text-muted o_default_snippet_text">
+                                                        AGILE ถูกออกแบบโดยยึดหลักการสำคัญ 4 ประการ
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 s_col_no_bgcolor pb24">
+                                            <div class="row">
+                                                <div class="col-lg-12 pt16 pb16" data-name="Box">
+                                                    <p class="s_features_grid_icon font-42 font-bold" id="green">01</p>
+                                                    <div class="s_features_grid_content">
+                                                        <h4 id="green">INDIVIDUALS AND INTERACTIONS</h4>
+                                                        <p class="o_default_snippet_text text-muted">ให้ความสำคัญสื่อสารกันโดยตรงและสม่ำเสมอ มากกว่ากระบวนการสื่อสารหรือเครื่องมือ</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 pt16 pb16" data-name="Box">
+                                                    <p class="s_features_grid_icon font-42 font-bold" id="green">02</p>
+                                                    <div class="s_features_grid_content">
+                                                        <h4 id="green">WORKING SOFTWARE</h4>
+                                                        <p class="o_default_snippet_text text-muted">ให้ความสำคัญกับการส่งมอบซอฟท์แวร์ที่ใช้ได้จริงอย่างสม่ำเสมอ มากกว่างานเอกสาร</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 pt16 pb16" data-name="Box">
+                                                    <p class="s_features_grid_icon font-42 font-bold" id="green">03</p>
+                                                    <div class="s_features_grid_content">
+                                                        <h4 id="green">CUSTOMER COLLABORATION</h4>
+                                                        <p class="o_default_snippet_text text-muted">ส่งเสริมความร่วมมือกับลูกค้า มากกว่ายึดติดกับสัญญา</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 pt16 pb16" data-name="Box">
+                                                    <p class="s_features_grid_icon font-42 font-bold" id="green">04</p>
+                                                    <div class="s_features_grid_content">
+                                                        <h4 id="green">RESPONDING TO CHANGE</h4>
+                                                        <p class="o_default_snippet_text text-muted">พร้อมปรับเปลี่ยนแผนการตามสภาพงานจริง มากกว่ายึดติดกับแผนเริ่มต้น</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
                     </t>
                 </t>

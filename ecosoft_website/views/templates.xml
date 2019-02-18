@@ -39,12 +39,10 @@
                 <div class="container main-body">
                     <div class="text-center top-5-percent">
                         <h2 class="bottom-20-px">
-                            <b>
-                                <span>ABOUT</span>
-                                <span id="green">ECOSOFT</span>
-                            </b>
+                            <span>ABOUT</span>
+                            <span id="green">ECOSOFT</span>
                         </h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
 
                     <div class="row d-flex align-items-stretch top-5-percent">
@@ -53,12 +51,10 @@
                                 <img class="card-img-top width-25-percent img-center top-5-percent" src="/ecosoft_website/static/src/img/icon/icon_homeServices_1.png" alt="Home Service1" aria-describedby="tooltip231818"/>
                                 <div class="card-body text-center">
                                     <h5 class="card-title o_default_snippet_text">
-                                        <b>
-                                            <span>WEB</span>
-                                            <span id="green">DESIGN</span>
-                                        </b>
+                                        <span>WEB</span>
+                                        <span id="green">DESIGN</span>
                                     </h5>
-                                    <p class="card-text o_default_snippet_text">
+                                    <p class="card-text o_default_snippet_text text-muted">
                                         Adapt these three columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.
                                     </p>
                                     <div class="s_btn pb0 pt16" data-name="Button">
@@ -74,12 +70,10 @@
                                 <img class="card-img-top width-25-percent img-center top-5-percent" src="/ecosoft_website/static/src/img/icon/icon_homeServices_2.png" alt="Home Service2"/>
                                 <div class="card-body text-center">
                                     <h5 class="card-title o_default_snippet_text">
-                                        <b>
-                                            <span>ERP SYSTEM</span>
-                                            <span id="green">SOLUTION</span>
-                                        </b>
+                                        <span>ERP SYSTEM</span>
+                                        <span id="green">SOLUTION</span>
                                     </h5>
-                                    <p class="card-text o_default_snippet_text">
+                                    <p class="card-text o_default_snippet_text text-muted">
                                         To add a fourth column, reduce the size of these three columns using the right icon of each block. Then, duplicate one of the column to create a new one as a copy.
                                     </p>
                                     <div class="s_btn pb0 pt16" data-name="Button">
@@ -95,12 +89,10 @@
                                 <img class="card-img-top width-25-percent img-center top-5-percent" src="/ecosoft_website/static/src/img/icon/icon_homeServices_3.png" alt="Home Service3"/>
                                 <div class="card-body text-center">
                                     <h5 class="card-title o_default_snippet_text">
-                                        <b>
-                                            <span>CUSTOMER</span>
-                                            <span id="green">SUPPORT</span>
-                                        </b>
+                                        <span>CUSTOMER</span>
+                                        <span id="green">SUPPORT</span>
                                     </h5>
-                                    <p class="card-text o_default_snippet_text">
+                                    <p class="card-text o_default_snippet_text text-muted">
                                         Delete the above image or replace it with a picture that illustrates your message. Click on the picture to change it's
                                         <em class="o_default_snippet_text">rounded corner</em> style.
                                     </p>
@@ -120,39 +112,37 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 pt16 pb16">
                                 <h2 class="o_default_snippet_text">
-                                    <b>
-                                        <span>OUR</span>
-                                        <span id="white">FEATURES</span>
-                                    </b>
+                                    <span>OUR</span>
+                                    <span id="white">FEATURES</span>
                                 </h2>
-                                <p class="o_default_snippet_text" id="white">
+                                <p class="o_default_snippet_text" id="smoke">
                                     Odoo comes out of the box with very simple options. if you need a simple ERP system help you manage your business, Odoo will took and feel comfortable.
                                     Odoo comes with 500+ modules to be expanded as you grow. It is the only price of software your organization will need.
                                 </p>
-                                <div class="o_default_snippet_text font-bold" id="white">
+                                <div class="o_default_snippet_text" id="white">
                                     <div class="row">
                                         <div class="col-sm-12 pt16 pb16" data-name="Box">
                                             <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_feature_1.png" alt="accounting"/>
                                             <div class="s_features_grid_content">
-                                                <p class="o_default_snippet_text font-bold font-16">Accounting &amp; Financial Management</p>
+                                                <p class="o_default_snippet_text font-16">Accounting &amp; Financial Management</p>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 pt16 pb16" data-name="Box">
                                             <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_feature_2.png" alt="manufacturing"/>
                                             <div class="s_features_grid_content">
-                                                <p class="o_default_snippet_text font-bold font-16">Manufacturing Management</p>
+                                                <p class="o_default_snippet_text font-16">Manufacturing Management</p>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 pt16 pb16" data-name="Box">
                                             <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_feature_3.png" alt="warehouse"/>
                                             <div class="s_features_grid_content">
-                                                <p class="o_default_snippet_text font-bold font-16">Warehouse Management</p>
+                                                <p class="o_default_snippet_text font-16">Warehouse Management</p>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 pt16 pb16" data-name="Box">
                                             <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_feature_4.png" alt="more"/>
                                             <div class="s_features_grid_content">
-                                                <p class="o_default_snippet_text font-bold font-16">And More...</p>
+                                                <p class="o_default_snippet_text font-16">And More...</p>
                                             </div>
                                         </div>
                                     </div>
@@ -168,12 +158,10 @@
                 <div class="container main-body">
                     <div class="text-center top-5-percent">
                         <h2>
-                            <b>
-                                <span>FOLLOW</span>
-                                <span id="green">US</span>
-                            </b>
+                            <span>FOLLOW</span>
+                            <span id="green">US</span>
                         </h2>
-                        <p>Subscribe to receive updates and exclusive offers.</p>
+                        <p class="text-muted">Subscribe to receive updates and exclusive offers.</p>
                         <form name="form_subscribe" action="#" method="get">
                             <input type="email" class="form-control form-control-lg text-center width-60-percent" style="margin: 0 auto;" placeholder="Your E-mail" name="contact_email"/>
                             <div class="s_btn pb0 pt16" data-name="Button">
@@ -350,7 +338,7 @@
                             <span t-field="res_company.name"></span>
                             <span>Head Office</span>
                         </div>
-                        <div class="address">
+                        <div class="address" id="smoke">
                             <t t-if="res_company.street"><span t-field="res_company.street"/></t>
                             <t t-if="res_company.street2"><span>,</span><span t-field="res_company.street2"/></t>
                             <t t-if="res_company.city"><span>,</span><span t-field="res_company.city"/></t>
@@ -366,7 +354,7 @@
                                     <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_footer_1.png" alt="Phone"/>
                                     <div class="s_features_grid_content">
                                         <p class="o_default_snippet_text font-bold">Phone</p>
-                                        <p class="o_default_snippet_text"><span t-field="res_company.phone"></span></p>
+                                        <p class="o_default_snippet_text" id="smoke"><span t-field="res_company.phone"></span></p>
                                     </div>
                                 </div>
                             </div>
@@ -377,7 +365,7 @@
                                     <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_footer_2.png" alt="Mobile"/>
                                     <div class="s_features_grid_content">
                                         <p class="o_default_snippet_text font-bold">Mobile</p>
-                                        <p class="o_default_snippet_text">+66 (8) 1 841 7480</p>
+                                        <p class="o_default_snippet_text" id="smoke">+66 (8) 1 841 7480</p>
                                     </div>
                                 </div>
                             </div>
@@ -388,7 +376,7 @@
                                     <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_footer_3.png" alt="Email"/>
                                     <div class="s_features_grid_content">
                                         <p class="o_default_snippet_text font-bold">e-Mail</p>
-                                        <p class="o_default_snippet_text"><span t-field="res_company.email"></span></p>
+                                        <p class="o_default_snippet_text" id="smoke"><span t-field="res_company.email"></span></p>
                                     </div>
                                 </div>
                             </div>
