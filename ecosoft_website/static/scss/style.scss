@@ -5,9 +5,9 @@
 body {
     font-family: 'Kanit';
 }
-p {
-    font-size: 14px;
-}
+// p {
+//     font-size: 16px;
+// }
 .main-body{
     width: 70%;
 }
@@ -41,11 +41,11 @@ p {
 .bottom-5-percent{
     margin-bottom: 5%;
 }
-.bottom-20-px{
-    margin-bottom: 20px;
-}
-.button-round {
+.btn-round {
     border-radius: 25px;
+}
+.btn-white {
+    background-color: white;
 }
 .bg-whitesmoke {
     background-color: #f4f4f4;
