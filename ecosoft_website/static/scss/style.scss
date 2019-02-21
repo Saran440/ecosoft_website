@@ -8,6 +8,9 @@ body {
 // p {
 //     font-size: 16px;
 // }
+.card {
+    border: none;
+}
 .main-body{
     width: 70%;
 }
@@ -46,6 +49,9 @@ body {
 }
 .btn-white {
     background-color: white;
+}
+.btn-width{
+    width: 60%;
 }
 .bg-whitesmoke {
     background-color: #f4f4f4;
@@ -93,8 +99,38 @@ body {
     margin-bottom: auto;
     margin-top: auto;
 }
-.img-full {
-    width: 100%
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: #75bf44;
+  text-align: center;
+  height: 1.5em;
+  width: 40%;
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: #fcfcfa;
+    padding: 0 .5em;
+    line-height: 1em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: #75bf44;
+    background-color: #fcfcfa;
+    font-size: 20px;
+  }
 }
 #green{
     color:#75bf44;

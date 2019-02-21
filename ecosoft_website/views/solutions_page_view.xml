@@ -171,7 +171,7 @@
                                 <div class="container main-body">
                                     <div class="row s_nb_column_fixed">
                                         <div class="col-lg-12 s_title pt32 pb0" data-name="Title">
-                                            <img src="/ecosoft_website/static/src/img/icon/icon_doubleQuote_white.png" class="img-center"/>
+                                            <img src="/ecosoft_website/static/src/img/icon/icon_doubleQuote.png" class="img-center img-convert-to-white"/>
                                         </div>
                                         <div class="col-lg-12 s_text pt16 pb8" data-name="Text">
                                             <p class="lead o_default_snippet_text text-center" id="white">
@@ -286,15 +286,15 @@
                                 </div>
                             </section>
 
-                            <div class="container main-body top-5-percent">
-                                <div class="row pb16">
+                            <div class="container main-body top-5-percent pb64">
+                                <div class="row">
                                     <div class="col-lg-6">
-                                        <h4 class="pt16">หากเปรียบ OPEN SOURCE ERP กับ TIER 1 ERP (SAP/ORACLE)</h4>
+                                        <h4>หากเปรียบ OPEN SOURCE ERP กับ TIER 1 ERP (SAP/ORACLE)</h4>
                                         <p class="o_default_snippet_text text-muted pt16">ความสามารถในเชิง Business Functionality ของ Open Source ERP อาจไม่เทียบเท่า Tier 1 ERP อย่าง SAP หรือ Oracle แต่เราพบว่า Open Source ERP มีความสามารถพื้นฐานทั้งหมดที่ ERP ดีๆพึงมี (โดยไม่มีค่า License) เราอาจอุปมาอุปไมยได้ดังนี้</p>
                                         <p class="o_default_snippet_text text-muted">หากเปรียบเทียบ SAP/Oracle หมือนกับเสื่อขนาด 10x10 ตารางเมตร</p>
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4 class="pt16">ธุรกิจขนาดใดเหมาะกับ OPEN SOURCE ERP<br/></h4>
+                                        <h4>ธุรกิจขนาดใดเหมาะกับ OPEN SOURCE ERP</h4>
                                         <p class="o_default_snippet_text text-muted pt16">เราพบว่าธุรกิจขนาดเล็กบนถึงกลาง</p>
                                         <p class="o_default_snippet_text text-muted">สำหรับธุรกิจขนาดใหญ่และสามารถจ่ายเงิน</p>
                                     </div>
