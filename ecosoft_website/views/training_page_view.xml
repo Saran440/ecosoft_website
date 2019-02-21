@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+
+        <!-- Training page -->
         <record id="trainings" model="ir.ui.view">
             <field name="name">Trainings</field>
             <field name="type">qweb</field>

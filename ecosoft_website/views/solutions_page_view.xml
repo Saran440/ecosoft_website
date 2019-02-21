@@ -2,7 +2,7 @@
 <odoo>
     <data>
 
-        <!-- Contact Us page -->
+        <!-- Solutions page -->
         <record id="solutions" model="ir.ui.view">
             <field name="name">Solutions</field>
             <field name="type">qweb</field>

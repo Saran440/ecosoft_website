@@ -21,5 +21,7 @@ Odoo Web Editor widget.
         'views/our_approach_page_view.xml',
         'views/solutions_page_view.xml',
         'views/training_page_view.xml',
+
+        'views/job_page_view.xml',
     ],
 }

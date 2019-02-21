@@ -2,7 +2,7 @@
 <odoo>
     <data>
 
-        <!-- Contact Us page -->
+        <!-- Our Approach page -->
         <record id="our_approach" model="ir.ui.view">
             <field name="name">Our Approach</field>
             <field name="type">qweb</field>
