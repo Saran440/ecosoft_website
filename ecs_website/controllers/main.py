@@ -6,11 +6,11 @@ class RouteWebsite(http.Controller):
     @http.route('/ecosoft/', auth='public', website=True)
     def index(self, **kw):
         print(kw)
-        return http.request.render('ecosoft_website.index')
+        return http.request.render('ecs_website.index')
 
     @http.route('/ecosoft/<model("theme.customize"):teacher>/',
                 auth='public', website=True)
     def teacher(self, teacher):
-        return http.request.render('ecosoft_website.biography', {
+        return http.request.render('ecs_website.biography', {
             'person': teacher
         })

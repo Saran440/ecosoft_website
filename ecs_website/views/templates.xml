@@ -4,7 +4,7 @@
     <!-- Add scss style in module -->
     <template id="assets_frontend" inherit_id="website.assets_frontend" name="Blog Front-end assets">
         <xpath expr="." position="inside">
-            <link rel="stylesheet" type="text/scss" href="/ecosoft_website/static/scss/style.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/ecs_website/static/scss/style.scss"/>
         </xpath>
     </template>
 
@@ -48,7 +48,7 @@
                     <div class="row d-flex align-items-stretch top-5-percent">
                         <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
                             <div class="card bg-whitesmoke">
-                                <img class="card-img-top width-25-percent img-center pt16" src="/ecosoft_website/static/src/img/icon/icon_homeServices_1.png" alt="Home Service1" aria-describedby="tooltip231818"/>
+                                <img class="card-img-top width-25-percent img-center pt16" src="/ecs_website/static/src/img/icon/icon_homeServices_1.png" alt="Home Service1" aria-describedby="tooltip231818"/>
                                 <div class="card-body text-center">
                                     <h5 class="card-title o_default_snippet_text">
                                         <span>WEB</span>
@@ -67,7 +67,7 @@
                         </div>
                         <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
                             <div class="card bg-whitesmoke">
-                                <img class="card-img-top width-25-percent img-center pt16" src="/ecosoft_website/static/src/img/icon/icon_homeServices_2.png" alt="Home Service2"/>
+                                <img class="card-img-top width-25-percent img-center pt16" src="/ecs_website/static/src/img/icon/icon_homeServices_2.png" alt="Home Service2"/>
                                 <div class="card-body text-center">
                                     <h5 class="card-title o_default_snippet_text">
                                         <span>ERP SYSTEM</span>
@@ -86,7 +86,7 @@
                         </div>
                         <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
                             <div class="card bg-whitesmoke">
-                                <img class="card-img-top width-25-percent img-center pt16" src="/ecosoft_website/static/src/img/icon/icon_homeServices_3.png" alt="Home Service3"/>
+                                <img class="card-img-top width-25-percent img-center pt16" src="/ecs_website/static/src/img/icon/icon_homeServices_3.png" alt="Home Service3"/>
                                 <div class="card-body text-center">
                                     <h5 class="card-title o_default_snippet_text">
                                         <span>CUSTOMER</span>
@@ -122,25 +122,25 @@
                                 <div class="o_default_snippet_text" id="white">
                                     <div class="row">
                                         <div class="col-sm-12 pt16 pb4" data-name="Box">
-                                            <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_feature_1.png" alt="accounting"/>
+                                            <img class="s_features_grid_icon" src="/ecs_website/static/src/img/icon/icon_feature_1.png" alt="accounting"/>
                                             <div class="s_features_grid_content">
                                                 <p class="o_default_snippet_text font-16">Accounting &amp; Financial Management</p>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 pt4 pb4" data-name="Box">
-                                            <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_feature_2.png" alt="manufacturing"/>
+                                            <img class="s_features_grid_icon" src="/ecs_website/static/src/img/icon/icon_feature_2.png" alt="manufacturing"/>
                                             <div class="s_features_grid_content">
                                                 <p class="o_default_snippet_text font-16">Manufacturing Management</p>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 pt4 pb4" data-name="Box">
-                                            <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_feature_3.png" alt="warehouse"/>
+                                            <img class="s_features_grid_icon" src="/ecs_website/static/src/img/icon/icon_feature_3.png" alt="warehouse"/>
                                             <div class="s_features_grid_content">
                                                 <p class="o_default_snippet_text font-16">Warehouse Management</p>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 pt4 pb4" data-name="Box">
-                                            <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_feature_4.png" alt="more"/>
+                                            <img class="s_features_grid_icon" src="/ecs_website/static/src/img/icon/icon_feature_4.png" alt="more"/>
                                             <div class="s_features_grid_content">
                                                 <p class="o_default_snippet_text font-16">And More...</p>
                                             </div>
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 pt0 pb0">
-                                <img src="/ecosoft_website/static/src/img/background/homepage/home_img1.jpg" style="max-width:150%;"/>
+                                <img src="/ecs_website/static/src/img/background/homepage/home_img1.jpg" style="max-width:150%;"/>
                             </div>
                         </div>
                     </div>
@@ -176,7 +176,7 @@
                         <li data-target="#background_cliantReview" data-slide-to="2"/>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item oe_custom_bg oe_img_bg pt48 pb0 active" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
+                        <div class="carousel-item oe_custom_bg oe_img_bg pt48 pb0 active" style="background-image: url(&quot;/ecs_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
                             <div class="container main-body">
                                 <div class="row content">
                                     <div class="row s_nb_column_fixed text-center" id="white">
@@ -189,7 +189,7 @@
                                             </h2>
                                         </div>
                                         <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
-                                            <img src="/ecosoft_website/static/src/img/icon/icon_doubleQuote.png"/>
+                                            <img src="/ecs_website/static/src/img/icon/icon_doubleQuote.png"/>
                                             <p class="lead o_default_snippet_text"><br/>The National Science and Technology Development Agency (NSTDA) was established in 1991. NSTDA's Principal mandate is to conduct and support research, development, and engineering, to provide technology transfer, and to develop manpower and xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
                                         </div>
                                         <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
@@ -199,7 +199,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item oe_custom_bg oe_img_bg pb0 pt48" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
+                        <div class="carousel-item oe_custom_bg oe_img_bg pb0 pt48" style="background-image: url(&quot;/ecs_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
                             <div class="container main-body">
                                 <div class="row content">
                                     <div class="row s_nb_column_fixed text-center" id="white">
@@ -212,7 +212,7 @@
                                             </h2>
                                         </div>
                                         <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
-                                            <img src="/ecosoft_website/static/src/img/icon/icon_doubleQuote.png"/>
+                                            <img src="/ecs_website/static/src/img/icon/icon_doubleQuote.png"/>
                                             <p class="lead o_default_snippet_text"><br/>The National Science and Technology Development Agency (NSTDA) was established in 1991. NSTDA's Principal mandate is to conduct and support research, development, and engineering, to provide technology transfer, and to develop manpower and xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
                                         </div>
                                         <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
@@ -222,7 +222,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item oe_custom_bg oe_img_bg pb0 pt48" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
+                        <div class="carousel-item oe_custom_bg oe_img_bg pb0 pt48" style="background-image: url(&quot;/ecs_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
                             <div class="container">
                                 <div class="row content">
                                     <div class="row s_nb_column_fixed text-center" id="white">
@@ -235,7 +235,7 @@
                                             </h2>
                                         </div>
                                         <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
-                                            <img src="/ecosoft_website/static/src/img/icon/icon_doubleQuote.png"/>
+                                            <img src="/ecs_website/static/src/img/icon/icon_doubleQuote.png"/>
                                             <p class="lead o_default_snippet_text"><br/>The National Science and Technology Development Agency (NSTDA) was established in 1991. NSTDA's Principal mandate is to conduct and support research, development, and engineering, to provide technology transfer, and to develop manpower and xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
                                         </div>
                                         <div class="col-lg-12 s_text pt32 pb32" data-name="Text">
@@ -261,33 +261,33 @@
                         <div class="carousel-item active" data-name="Slide">
                             <div class="container main-body">
                                 <div class="row">
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_1.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_2.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_3.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_4.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_5.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_6.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_1.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_2.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_3.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_4.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_5.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_6.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item" data-name="Slide">
                             <div class="container main-body">
                                 <div class="row">
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_7.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_8.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_9.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_10.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_11.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_12.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_7.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_8.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_9.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_10.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_11.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_12.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item" data-name="Slide">
                             <div class="container main-body">
                                 <div class="row">
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_13.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_14.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
-                                    <img src="/ecosoft_website/static/src/img/logo_customerReference/logo_ref_15.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_13.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_14.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
+                                    <img src="/ecs_website/static/src/img/logo_customerReference/logo_ref_15.png" class="img img-fluid img-logo" aria-describedby="tooltip299560"/>
                                 </div>
                             </div>
                         </div>
@@ -349,7 +349,7 @@
                         <div class="s_col_no_bgcolor pb24 col-md-4">
                             <div class="row">
                                 <div class="col-sm-12 pt16 pb16" data-name="Box">
-                                    <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_footer_1.png" alt="Phone"/>
+                                    <img class="s_features_grid_icon" src="/ecs_website/static/src/img/icon/icon_footer_1.png" alt="Phone"/>
                                     <div class="s_features_grid_content">
                                         <p class="o_default_snippet_text font-bold">Phone</p>
                                         <p class="o_default_snippet_text" id="smoke"><span t-field="res_company.phone"></span></p>
@@ -360,7 +360,7 @@
                         <div class="s_col_no_bgcolor pb24 col-md-4">
                             <div class="row">
                                 <div class="col-sm-12 pt16 pb16" data-name="Box">
-                                    <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_footer_2.png" alt="Mobile"/>
+                                    <img class="s_features_grid_icon" src="/ecs_website/static/src/img/icon/icon_footer_2.png" alt="Mobile"/>
                                     <div class="s_features_grid_content">
                                         <p class="o_default_snippet_text font-bold">Mobile</p>
                                         <p class="o_default_snippet_text" id="smoke">+66 (8) 1 841 7480</p>
@@ -371,7 +371,7 @@
                         <div class="s_col_no_bgcolor pb24 col-md-4">
                             <div class="row">
                                 <div class="col-sm-12 pt16 pb16" data-name="Box">
-                                    <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_footer_3.png" alt="Email"/>
+                                    <img class="s_features_grid_icon" src="/ecs_website/static/src/img/icon/icon_footer_3.png" alt="Email"/>
                                     <div class="s_features_grid_content">
                                         <p class="o_default_snippet_text font-bold">e-Mail</p>
                                         <p class="o_default_snippet_text" id="smoke"><span t-field="res_company.email"></span></p>

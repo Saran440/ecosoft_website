@@ -14,7 +14,7 @@
                         <div class="oe_structure">
 
                             <section class="s_cover parallax bg-black-50 pb40 pt128" data-scroll-background-ratio="0" style="background-image: none;">
-                                <span class="s_parallax_bg oe_img_bg oe_custom_bg img-dim" style="background-image: url(&quot;/ecosoft_website/static/src/img/background/jobs/banner_jobs.jpg&quot;); background-position: 50% 0px;"/>
+                                <span class="s_parallax_bg oe_img_bg oe_custom_bg img-dim" style="background-image: url(&quot;/ecs_website/static/src/img/background/jobs/banner_jobs.jpg&quot;); background-position: 50% 0px;"/>
                                 <div class="container main-body">
                                     <div class="row s_nb_column_fixed" id="white">
                                         <div class="col-lg-12 s_title" data-name="Title">
@@ -53,7 +53,7 @@
                             <section class="s_cover parallax bg-whitesmoke top-5-percent">
                                 <div class="container main-body text-center pt40 pb40">
                                     <div class="pb40">
-                                        <img src="/ecosoft_website/static/src/img/background/jobs/infographic_3.png"/>
+                                        <img src="/ecs_website/static/src/img/background/jobs/infographic_3.png"/>
                                     </div>
                                     <div class="o_default_snippet_text text-muted btn-width" style="margin: 0 auto;">
                                         <p>To be a Lean Organization, more value with fewer resources and empowering team members to collaborate and make team decisions, which is Agile environment.</p>
@@ -72,13 +72,13 @@
                                             <div class="o_default_snippet_text" id="white">
                                                 <div class="row">
                                                     <div class="col-sm-12 pt16 pb8" data-name="Box">
-                                                        <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_feature_1.png" alt="accounting"/>
+                                                        <img class="s_features_grid_icon" src="/ecs_website/static/src/img/icon/icon_feature_1.png" alt="accounting"/>
                                                         <div class="s_features_grid_content">
                                                             <p class="o_default_snippet_text font-16">ERP System Analyst</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-12 pt8" data-name="Box">
-                                                        <img class="s_features_grid_icon" src="/ecosoft_website/static/src/img/icon/icon_feature_2.png" alt="manufacturing"/>
+                                                        <img class="s_features_grid_icon" src="/ecs_website/static/src/img/icon/icon_feature_2.png" alt="manufacturing"/>
                                                         <div class="s_features_grid_content">
                                                             <p class="o_default_snippet_text font-16">Web Developer / ERP Programmer</p>
                                                         </div>
@@ -87,7 +87,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-6 pt0 pb0">
-                                            <img src="/ecosoft_website/static/src/img/background/jobs/img_jobs.jpg" style="max-width:150%;"/>
+                                            <img src="/ecs_website/static/src/img/background/jobs/img_jobs.jpg" style="max-width:150%;"/>
                                         </div>
                                     </div>
                                 </div>
