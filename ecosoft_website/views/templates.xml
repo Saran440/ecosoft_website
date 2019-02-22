@@ -384,4 +384,11 @@
             </section>
         </xpath>
     </template>
+
+    <record id="home_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="is_homepage">True</field>
+        <field name="url">/ecosoft</field>
+        <field name="view_id" ref="index"/>
+    </record>
 </odoo>

@@ -23,5 +23,6 @@ Odoo Web Editor widget.
         'views/training_page_view.xml',
 
         'views/job_page_view.xml',
+        'views/contact_page_view.xml',
     ],
 }
