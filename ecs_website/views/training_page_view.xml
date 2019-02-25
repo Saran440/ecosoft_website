@@ -50,10 +50,93 @@
                             <div class="container main-body" id="oneday_training" style="display: none;">
                                 <div class="row s_nb_column_fixed">
                                     <h5 class="o_default_snippet_text">To know Odoo, Open Source ERP#1</h5>
-                                    <p class="text-muted o_default_snippet_text">
-                                        This course will be in walk through format. The trainee will learn how Odoo works both Functional and Technical.<br/>
-                                        The training will last 2 consecutive days.
-                                    </p>
+                                    <div class="pt8">
+                                        <h5 class="o_default_snippet_text">COURSE SUMMARY</h5>
+                                        <p class="text-muted o_default_snippet_text">
+                                            This course is an introduction to Odoo which gives you the overall pictures if Odoo reaches your expectation or suits your business needs.
+                                        </p>
+                                    </div>
+                                    <div class="pt16">
+                                        <h5 class="o_default_snippet_text">OBJECTIVES</h5>
+                                        <p class="text-muted o_default_snippet_text">
+                                            To Know the basics of Odoo functionalities and the overview of standard Odoo business practice
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row s_nb_column_fixed pt16">
+                                    <h5 class="o_default_snippet_text" style="margin:0px;">TOPICS</h5>
+                                </div>
+                                <div class="row align-items-center pt16">
+                                    <div class="col-lg-6">
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Getting to Know Open Source ERP and Odoo</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">What is Open Source ERP</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">What is Odoo</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Odoo Community and Odoo Enterprise</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Overview Purchase and Sales Modules</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Purchase Order to Payment</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Quotation to Payment Collection</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text" style="font-size:15px;">Measuring performance - Odoo Finance &amp; Accounting</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Overview of Odoo Standard Financial Statements</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Overview of Odoo Standard reports</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Sharing and Discussion</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -232,10 +315,148 @@
                             <!-- Three days -->
                             <div class="container main-body" id="threeday_training" style="display: none;">
                                 <div class="row s_nb_column_fixed">
-                                    <h5 class="o_default_snippet_text">3 Days Odoo Advance Technical Training (workshop)</h5>
+                                    <h5 class="o_default_snippet_text">3 Days Odoo Advance Technical Training</h5>
                                     <p class="text-muted o_default_snippet_text">
-                                        Wait Data
+                                        This course will be conducted in a workshop format. The trainee will learn how Odoo works from the inside out, able to write new Odoo application or enhance existing applications.
                                     </p>
+                                    <p class="text-muted o_default_snippet_text">
+                                        The training will last 3 non-consecutive days. Homework will be assigned and will have discussion throughout the course. We want to make sure that trainee will be able to "Do It Yourself" after the end of class.
+                                    </p>
+                                    <p class="text-muted o_default_snippet_text">
+                                        For more information please, send us your question below or send e-mail to learn@ecosoft.co.th
+                                    </p>
+                                    <p class="text-muted o_default_snippet_text">
+                                        This class assumes that trainee already have a decent knowledge of Linux OS, DBMS and Python, as the class will mainly focus on the Odoo's Framework
+                                    </p>
+                                </div>
+                                <div class="row s_nb_column_fixed pt16">
+                                    <h5 class="o_default_snippet_text" style="margin:0px;">TOPICS</h5>
+                                </div>
+                                <div class="row align-items-center pt16">
+                                    <div class="col-lg-6">
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Overview of Odoo + Functional Demo</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Odoo Framework Overview</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Software Installation from Source</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Development Environment Setup</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Build an Odoo module</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Basic views</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">ORM (Object Relational Mapping)</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Relations between models</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Inheritance</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Computed fields and default values</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Onchange</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Model constraints</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Advanced Views</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Workflows</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Security &amp; Rules</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Wizards</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Internationalization</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">WebServices</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Data Import/Export</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-muted o_default_snippet_text col-sm-12 pt4 pb4" data-name="Box">
+                                            <i class="fa fa-2x fa-check-circle s_features_grid_icon" id="green"/>
+                                            <div class="s_features_grid_content">
+                                                <p class="o_default_snippet_text font-16">Special Topics</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
