@@ -18,6 +18,7 @@ Odoo Web Editor widget.
         'data/data_submenu.xml',
         'views/templates.xml',
         'views/theme_customize_view.xml',
+        'views/home_page_view.xml',
         'views/our_approach_page_view.xml',
         'views/solutions_page_view.xml',
         'views/training_page_view.xml',
