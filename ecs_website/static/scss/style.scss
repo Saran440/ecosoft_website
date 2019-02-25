@@ -148,18 +148,11 @@ body {
     color:red;
 }
 
-input[type="email"],
-select.form-control {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #A9A9A9;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border-radius: 0;
-}
-
-input[type="email"]:focus,
-select.form-control:focus {
-  -webkit-box-shadow: none;
-  box-shadow: none;
+.email_sub{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #A9A9A9;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
 }
