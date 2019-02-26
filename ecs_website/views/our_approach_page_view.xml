@@ -12,7 +12,7 @@
                     <t t-call="website.layout">
                         <t t-set="title">Ecosoft | Your ERP Partner</t>
                         <div class="oe_structure">
-                            <section class="s_cover parallax bg-black-50 pb40 pt128" data-scroll-background-ratio="0" style="background-image: none;">
+                            <section class="s_cover parallax pb40 pt128" data-scroll-background-ratio="0" style="background-image: none;">
                                 <span class="s_parallax_bg oe_img_bg oe_custom_bg img-dim" style="background-image: url(&quot;/ecs_website/static/src/img/background/our_approach/banner_ourApproach.jpg&quot;); background-position: 50% 0px;"/>
                                 <div class="container main-body">
                                     <div class="row s_nb_column_fixed" id="white">

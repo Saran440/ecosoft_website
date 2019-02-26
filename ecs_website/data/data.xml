@@ -49,5 +49,13 @@
             <field name="sequence" type="int">45</field>
         </record>
 
+        <!-- Odoo Menu -->
+        <record id="menu_odoo_story" model="website.menu">
+            <field name="name">Odoo Story</field>
+            <field name="url">https://www.odoo.com/</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">50</field>
+        </record>
+
     </data>
 </odoo>

@@ -102,6 +102,14 @@ body {
     margin-bottom: auto;
     margin-top: auto;
 }
+.email_sub{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #A9A9A9;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
 .hr-text {
   line-height: 1em;
   position: relative;
@@ -146,13 +154,4 @@ body {
 }
 #red{
     color:red;
-}
-
-.email_sub{
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #A9A9A9;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-radius: 0;
 }

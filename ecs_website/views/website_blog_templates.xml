@@ -1,22 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Option: Blog Post List: grid layout -->
-    <!-- <template id="opt_blog_post_grid_layout" name="Grid view"
-            customize_show="True" active="True" inherit_id="website_blog.blog_post_short">
-        <xpath expr="//div[@name='blog_post']" position="attributes">
-            <attribute name="class" add="col-md-5 o_grid" separator=" "/>
+    <!-- Inherit Blog Post List: grid layout -->
+    <template id="blog_post_short" name="Blog Posts" inherit_id="website_blog.blog_post_short">
+        <xpath expr="//section[@class='mb0']" position="replace">
+            <section class="s_cover parallax pb40 pt128 bottom-5-percent" data-scroll-background-ratio="0" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg img-dim" style="background-image: url(&quot;/ecs_website/static/src/img/background/blog/banner_blog.jpg&quot;); background-position: 50% 100%;"/>
+                <div class="container main-body">
+                    <div class="row s_nb_column_fixed" id="white">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 t-field="blog.name"/>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead o_default_snippet_text">
+                                <span id="smoke">Home | </span>
+                                <span class="font-bold">Blog</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+        <!-- Replace Social network in blog -->
+        <xpath expr="//div[@class='o_sharing_links']" position="replace"/>
+    </template>
+
+    <!-- Inherit Blog Post: Banner -->
+    <template id="blog_banner" name="Ecoblog_Banner" inherit_id="website_blog.blog_post_complete">
+        <xpath expr="//div[@id='title']" position="before">
+            <section class="s_cover parallax pb40 pt128 bottom-5-percent" data-scroll-background-ratio="0" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg img-dim" style="background-image: url(&quot;/ecs_website/static/src/img/background/blog/banner_blog.jpg&quot;); background-position: 50% 100%;"/>
+                <div class="container main-body">
+                    <div class="row s_nb_column_fixed" id="white">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 t-field="blog.name"/>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead o_default_snippet_text">
+                                <span id="smoke">Home | </span>
+                                <span class="font-bold">Blog</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+        <xpath expr="//div[@id='title']" position="attributes">
+            <attribute name="class">col-md-8</attribute>
+        </xpath>
+        <xpath expr="//div[@id='blog_content']" position="attributes">
+            <attribute name="class">col-md-8</attribute>
+        </xpath>
+        <!-- <xpath expr="//div[@id='blog_title']" position="after">
+            <div class="col-xl-3 offset-xl-1 col-md-4" id="blog_right_column"/>
+        </xpath> -->
+        <!-- Replace Social network in blog_post -->
+        <xpath expr="//div[@class='o_blog_post_complete o_sharing_links']" position="replace"/>
+    </template>
+
+    <!-- Inherit Blog Post: Comments -->
+    <template id="opt_blog_post_complete_comment" inherit_id="website_blog.opt_blog_post_complete_comment">
+        <xpath expr="//section[@id='comments']" position="attributes">
+            <attribute name="class">col-md-8</attribute>
+        </xpath>
+    </template>
+
+    <!-- <template id="index_right" name="Right Column" inherit_id="website_blog.blog_post_short">
+        <xpath expr="//div[@id='main_column']" position="after">
+            <div class="col-xl-3 offset-xl-1 col-md-4" id="blog_right_column"/>
         </xpath>
     </template> -->
-    <data>
-        <record model="ir.ui.view" id="opt_blog_post_grid_layout">
-            <field name="name">res.partner.form.inherit</field>
-            <!-- <field name="model">res.partner</field> -->
-            <field name="inherit_id" ref="website_blog.opt_blog_post_grid_layout"/>
-            <field name="arch" type="xml">
-                <xpath expr="//div[@name='blog_post']" position="attributes">
-                    <attribute name="class" add="col-md-12 o_grid" separator=" "/>
-                </xpath>
-            </field>
-        </record>
-    </data>
+
 </odoo>
