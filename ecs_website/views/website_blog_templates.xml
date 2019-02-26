@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Option: Blog Post List: grid layout -->
+    <!-- <template id="opt_blog_post_grid_layout" name="Grid view"
+            customize_show="True" active="True" inherit_id="website_blog.blog_post_short">
+        <xpath expr="//div[@name='blog_post']" position="attributes">
+            <attribute name="class" add="col-md-5 o_grid" separator=" "/>
+        </xpath>
+    </template> -->
+    <data>
+        <record model="ir.ui.view" id="opt_blog_post_grid_layout">
+            <field name="name">res.partner.form.inherit</field>
+            <!-- <field name="model">res.partner</field> -->
+            <field name="inherit_id" ref="website_blog.opt_blog_post_grid_layout"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@name='blog_post']" position="attributes">
+                    <attribute name="class" add="col-md-12 o_grid" separator=" "/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

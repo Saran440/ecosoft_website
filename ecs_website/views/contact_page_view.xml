@@ -157,7 +157,7 @@
                                     <div class="col-lg-12 text-center">
                                         <div class="s_btn pt16" data-name="Button">
                                             <input type="submit" class="btn btn-success bg-green btn-md btn-round btn-width-15" value="Submit"/>
-                                            <input type="reset" class="btn btn-secondary btn-md btn-round btn-width-15" value="Clear"/>
+                                            <input type="reset" class="btn btn-round btn-width-15" value="Clear"/>
                                         </div>
                                     </div>
                                 </div>

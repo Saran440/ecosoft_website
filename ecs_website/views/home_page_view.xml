@@ -156,9 +156,9 @@
                         </h2>
                         <p class="text-muted">Subscribe to receive updates and exclusive offers.</p>
                         <form name="form_subscribe" action="#" method="get">
-                            <input type="email" class="form-control form-control-lg text-center width-60-percent email_sub" style="margin: 0 auto;" placeholder="Your E-mail" name="contact_email"/>
+                            <input type="email" class="form-control form-control-lg text-center width-60-percent email_sub" style="margin: 0 auto;" placeholder="Your E-mail" name="contact_email" id="contact_email"/>
                             <div class="s_btn pt16" data-name="Button">
-                                <input type="submit" class="btn btn-success bg-green btn-md btn-round width-15-percent" value="Subscribe"/>
+                                <input type="submit" class="btn btn-success bg-green btn-md btn-round width-15-percent" value="Subscribe" id="subscribe" disabled="disabled"/>
                             </div>
                         </form>
                     </div>

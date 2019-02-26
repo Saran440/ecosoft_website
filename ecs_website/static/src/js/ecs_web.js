@@ -17,4 +17,15 @@ $(document).ready(function(){
         $("#twoday_training").hide("fast");
         $("#threeday_training").show("fast");
     });
+    $('#contact_email').keyup(function() {
+       if($(this).val() != '') {
+          $('#subscribe').prop('disabled', false);
+       }
+       else {
+          $('#subscribe').prop('disabled', true);
+       }
+    });
+    $("#subscribe").click(function(){
+        alert("Thank you for subscribe.");
+    });
 });

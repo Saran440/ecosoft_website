@@ -11,19 +11,21 @@ Odoo Web Editor widget.
 """,
     'version': '1.0',
     'author': 'Saran Lim.',
-    'depends': ['website'],
+    'depends': [
+        'website',
+        'website_blog',
+    ],
     'data': [
         'security/ir.model.access.csv',
         'data/data.xml',
-        'data/data_submenu.xml',
         'views/templates.xml',
-        'views/theme_customize_view.xml',
         'views/home_page_view.xml',
         'views/our_approach_page_view.xml',
         'views/solutions_page_view.xml',
         'views/training_page_view.xml',
-
+        'views/website_blog_templates.xml',
         'views/job_page_view.xml',
         'views/contact_page_view.xml',
+        'views/subscribe_view.xml',
     ],
 }
