@@ -85,7 +85,7 @@
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <span>Your Name <em>(required)</em> <span id="red">*</span></span>
-                                            <input type="text" class="form-control" name="user_name" required="required"/>
+                                            <input type="text" class="form-control" name="name" required="required"/>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
@@ -135,7 +135,7 @@
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <span>What module(s) are you interested in?</span>
-                                            <textarea class="form-control" rows="5" name="module"></textarea>
+                                            <textarea class="form-control" rows="5" name="module_interesting"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
@@ -156,7 +156,7 @@
                                     </div>
                                     <div class="col-lg-12 text-center">
                                         <div class="s_btn pt16" data-name="Button">
-                                            <input type="submit" class="btn btn-success bg-green btn-md btn-round btn-width-15" value="Submit"/>
+                                            <input type="submit" class="btn btn-success bg-green btn-md btn-round btn-width-15" value="Submit" id="submit_contact"/>
                                             <input type="reset" class="btn btn-round btn-width-15" value="Clear"/>
                                         </div>
                                     </div>

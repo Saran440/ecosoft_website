@@ -20,4 +20,7 @@ class RouteWebsite(http.Controller):
     @http.route('/contact', auth='public', website=True)
     def contact(self, **kw):
         print(kw)
+        inform = kw.get('name', False)
+        if inform:
+            http.request.env['customer.contact'].create(kw)
         return http.request.render('ecs_website.ecs_contact')

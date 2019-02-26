@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo import models, fields, api
+from odoo import models, fields
 
 
 class EmailSubscribe(models.Model):
@@ -8,8 +8,3 @@ class EmailSubscribe(models.Model):
     contact_email = fields.Char(
         string='Email',
     )
-
-    @api.model
-    def create(self, vals):
-        res = super(EmailSubscribe, self).create(vals)
-        return res
