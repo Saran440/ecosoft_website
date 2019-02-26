@@ -166,7 +166,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <section class="s_cover parallax bg-black-50 pb32 top-5-percent">
+                            <section class="s_cover parallax pb32 top-5-percent">
                                 <span class="s_parallax_bg oe_img_bg oe_custom_bg o_bg_img_opt_custom" style="background-image: url(&quot;/ecs_website/static/src/img/background/solutions/background_odoo_02.jpg&quot;); background-size: auto; background-position: 99.72% 90.42%;"/>
                                 <div class="container main-body">
                                     <div class="row s_nb_column_fixed">
