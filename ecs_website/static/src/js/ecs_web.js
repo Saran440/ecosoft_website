@@ -1,21 +1,24 @@
 $(document).ready(function(){
     $("#oneday").click(function(){
-        $("#main_training").hide("fast");
-        $("#oneday_training").show("fast");
-        $("#twoday_training").hide("fast");
-        $("#threeday_training").hide("fast");
+        $("#main_training").hide();
+        $("#oneday_training").show();
+        $("#twoday_training").hide();
+        $("#threeday_training").hide();
+        $("html, body").animate({scrollTop: 0}, 100);
     });
     $("#twoday").click(function(){
-        $("#main_training").hide("fast");
-        $("#oneday_training").hide("fast");
-        $("#twoday_training").show("fast");
-        $("#threeday_training").hide("fast");
+        $("#main_training").hide();
+        $("#oneday_training").hide();
+        $("#twoday_training").show();
+        $("#threeday_training").hide();
+        $("html, body").animate({scrollTop: 0}, 100);
     });
     $("#threeday").click(function(){
-        $("#main_training").hide("fast");
-        $("#oneday_training").hide("fast");
-        $("#twoday_training").hide("fast");
-        $("#threeday_training").show("fast");
+        $("#main_training").hide();
+        $("#oneday_training").hide();
+        $("#twoday_training").hide();
+        $("#threeday_training").show();
+        $("html, body").animate({scrollTop: 0}, 100);
     });
     $('#contact_email').keyup(function() {
        if($(this).val() != '') {
