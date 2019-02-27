@@ -467,8 +467,8 @@
                                             <div class="card-content" style="background-image: url(&quot;/ecs_website/static/src/img/background/training/background_training_1.jpg&quot;); background-position: 50% 0px; height:100%;">
                                                 <div class="card-body">
                                                     <h4 class="o_default_snippet_text text-center pt40" id="white">To know Odoo,<br/>Open Source ERP#1 </h4>
-                                                    <div class="s_btn text-center pt24" data-name="Buttons">
-                                                        <a id="oneday" class="btn btn-white o_default_snippet_text btn-round btn-width text-muted">Detail</a>
+                                                    <div class="s_btn pt16 text-center pt32" data-name="Buttons">
+                                                        <a id="oneday" class="btn btn-white rounded-circle btn-width text-muted" aria-describedby="tooltip392182">Detail</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -477,8 +477,8 @@
                                             <div class="card-content" style="background-image: url(&quot;/ecs_website/static/src/img/background/training/background_training_2.jpg&quot;); background-position: 50% 0px; height:100%;">
                                                 <div class="card-body">
                                                     <h4 class="o_default_snippet_text text-center pt32" id="white">2 Days<br/>Odoo v9 Fundamental <br/>(Functional / Technical)</h4>
-                                                    <div class="s_btn text-center pt8" data-name="Buttons">
-                                                        <a id="twoday" class="btn btn-white o_default_snippet_text btn-round btn-width text-muted">Detail</a>
+                                                    <div class="s_btn pt16 text-center pt8" data-name="Buttons">
+                                                        <a id="twoday" class="btn btn-white rounded-circle btn-width text-muted" aria-describedby="tooltip392182">Detail</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -487,8 +487,8 @@
                                             <div class="card-content" style="background-image: url(&quot;/ecs_website/static/src/img/background/training/background_training_3.jpg&quot;); background-position: 50% 0px; height:100%;">
                                                 <div class="card-body">
                                                     <h4 class="o_default_snippet_text text-center pt32" id="white">3 Days<br/>Odoo Advance Technical <br/>Training (workshop)</h4>
-                                                    <div class="s_btn text-center pt8" data-name="Buttons">
-                                                        <a id="threeday" class="btn btn-white o_default_snippet_text btn-round btn-width text-muted">Detail</a>
+                                                    <div class="s_btn pt16 text-center pt8" data-name="Buttons">
+                                                        <a id="threeday" class="btn btn-white rounded-circle btn-width text-muted" aria-describedby="tooltip392182">Detail</a>
                                                     </div>
                                                 </div>
                                             </div>

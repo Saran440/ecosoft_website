@@ -177,8 +177,8 @@
                                             <p class="lead o_default_snippet_text text-center" id="white">
                                                 Odoo comes out of the box with very simple options. if you need a simple ERP system help you manage your business, Odoo will look and feel comfortable. Odoo comes with 500+ modules to be expanded as you grow. It is the only piece of software your organization will need.</p>
                                         </div>
-                                        <div class="col-lg-12 s_btn text-center pt8" data-name="Buttons">
-                                            <a href="/aboutus" class="btn btn-white o_default_snippet_text btn-round" id="green">Learn odoo more</a>
+                                        <div class="col-lg-12 s_btn pt8 text-center" data-name="Buttons">
+                                            <a href="/aboutus" class="btn btn-white rounded-circle" aria-describedby="tooltip392182">Learn odoo more</a>
                                         </div>
                                     </div>
                                 </div>
