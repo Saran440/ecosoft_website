@@ -44,30 +44,9 @@
                 </div>
             </section>
         </xpath>
-        <xpath expr="//div[@id='title']" position="attributes">
-            <attribute name="class">col-md-8</attribute>
-        </xpath>
-        <xpath expr="//div[@id='blog_content']" position="attributes">
-            <attribute name="class">col-md-8</attribute>
-        </xpath>
-        <!-- <xpath expr="//div[@id='blog_title']" position="after">
-            <div class="col-xl-3 offset-xl-1 col-md-4" id="blog_right_column"/>
-        </xpath> -->
+
         <!-- Replace Social network in blog_post -->
         <xpath expr="//div[@class='o_blog_post_complete o_sharing_links']" position="replace"/>
     </template>
-
-    <!-- Inherit Blog Post: Comments -->
-    <template id="opt_blog_post_complete_comment" inherit_id="website_blog.opt_blog_post_complete_comment">
-        <xpath expr="//section[@id='comments']" position="attributes">
-            <attribute name="class">col-md-8</attribute>
-        </xpath>
-    </template>
-
-    <!-- <template id="index_right" name="Right Column" inherit_id="website_blog.blog_post_short">
-        <xpath expr="//div[@id='main_column']" position="after">
-            <div class="col-xl-3 offset-xl-1 col-md-4" id="blog_right_column"/>
-        </xpath>
-    </template> -->
 
 </odoo>
