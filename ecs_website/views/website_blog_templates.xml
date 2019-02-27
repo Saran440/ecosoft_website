@@ -46,7 +46,10 @@
         </xpath>
 
         <!-- Replace Social network in blog_post -->
-        <xpath expr="//div[@class='o_blog_post_complete o_sharing_links']" position="replace"/>
+        <xpath expr="//a[@id='o_twitter_complete']" position="replace"/>
+        <xpath expr="//a[@id='o_facebook_complete']" position="replace"/>
+        <xpath expr="//a[@id='o_linkedin_complete']" position="replace"/>
+        <xpath expr="//a[@id='o_google_complete']" position="replace"/>
     </template>
 
 </odoo>
