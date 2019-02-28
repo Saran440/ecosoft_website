@@ -35,7 +35,7 @@
                         </div>
                         <div class="row o_default_snippet_text">
                             <div class="col-lg-6 pb16">
-                                <p>........GOOGLE MAPS........</p>
+                                <img style="width:100%;" src="/ecs_website/static/src/img/background/contact/ecs_map.png" alt="maps"/>
                             </div>
                             <div class="col-lg-6 pb16">
                                 <h4 class="font-bold"><span t-field="res_company.name"/><br/></h4>
