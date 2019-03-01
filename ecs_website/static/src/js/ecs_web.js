@@ -28,7 +28,13 @@ $(document).ready(function(){
           $('#subscribe').prop('disabled', true);
        }
     });
-    $("#subscribe").click(function(){
-        alert("Thank you for subscribe.");
-    });
+    // $("#search_input").keyup(function(e){
+    //     var code = e.which; // recommended to use e.which, it's normalized across browsers
+    //     if(code==13)e.preventDefault();
+    //     if(code==13 && $("#search_input").val()){
+    //         alert($("#main_column").val());
+    //         // clear value in search view.
+    //         $("#search_input").val('');
+    //     }
+    // });
 });

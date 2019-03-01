@@ -40,7 +40,7 @@
                                     </h2>
                                     <h6>Are you looking for new wow?</h6>
                                 </div>
-                                <div class="text-muted o_default_snippet_text pt16 btn-width text-center" style="margin: 0 auto;">
+                                <div class="col-lg-8 text-muted o_default_snippet_text pt16 text-center" style="margin: 0 auto;">
                                     <p>Ecosoft is a Lean, Agile and Open Source organisation who works professionally with all stakeholders, customer, suppliers and team members!</p>
                                 </div>
                                 <div class="o_default_snippet_text pt16 text-center">
@@ -55,13 +55,13 @@
                                     <div class="pb40">
                                         <img src="/ecs_website/static/src/img/background/jobs/infographic_3.png"/>
                                     </div>
-                                    <div class="o_default_snippet_text text-muted btn-width" style="margin: 0 auto;">
+                                    <div class="col-lg-8 o_default_snippet_text text-muted" style="margin: 0 auto;">
                                         <p>To be a Lean Organization, more value with fewer resources and empowering team members to collaborate and make team decisions, which is Agile environment.</p>
                                     </div>
                                 </div>
                             </section>
 
-                            <section class="s_cover parallax bg-grey">
+                            <section class="s_cover parallax bg-gray">
                                 <div class="container main-body">
                                     <div class="row">
                                         <div class="col-lg-6 pt64 pb32" id="white">

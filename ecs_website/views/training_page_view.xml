@@ -11,7 +11,7 @@
                 <t name="Solution" t-name="website.trainings">
                     <t t-call="website.layout">
                         <t t-set="title">Ecosoft | Your ERP Partner</t>
-                        <div class="oe_structure">
+                        <div class="oe_structure oe_empty">
                             <section class="s_cover parallax pb40 pt128" data-scroll-background-ratio="0" style="background-image: none;">
                                 <span class="s_parallax_bg oe_img_bg oe_custom_bg img-dim" style="background-image: url(&quot;/ecs_website/static/src/img/background/training/banner_training.jpg&quot;); background-position: 50% 0px;"/>
                                 <div class="container main-body">

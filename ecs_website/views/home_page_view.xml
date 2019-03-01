@@ -6,20 +6,18 @@
         <template id="index">
             <t t-call="website.layout">
                 <t t-set="title">Ecosoft | Your ERP Partner</t>
-                <div class="oe_structure">
+                <div id="wrap_home_page" class="oe_structure oe_empty">
                     <section class="s_cover parallax pb64 pt128" data-scroll-background-ratio="0" style="background-image: none;">
                         <span class="s_parallax_bg oe_img_bg oe_custom_bg img-dim" style="background-image: url(&quot;/website/static/src/img/backgrounds/type.jpg&quot;); background-position: 50% 0px;"/>
                         <div class="container main-body">
                             <div class="row s_nb_column_fixed text-center" id="white">
                                 <div class="col-lg-12 s_title" data-name="Title">
-                                    <h1 class="s_title_thin o_default_snippet_text">
-                                        <span class="font-bold" id="white">NEXT GENERATION ERP SOFTWARE</span>
-                                    </h1>
+                                    <h1 class="lead o_default_snippet_text font-bold" id="white" style="font-size:30px;">NEXT GENERATION ERP SOFTWARE</h1>
                                 </div>
                                 <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
                                     <p class="lead o_default_snippet_text">100% Open Source <br/>No license cost, only quality services</p>
                                 </div>
-                                <div class="col-lg-12 s_text pb16" data-name="Text">
+                                <div class="col-lg-12 s_btn pt16 pb16" data-name="Buttons">
                                     <div class="s_btn" data-name="Buttons">
                                         <a href="/solutions" class="btn btn-success bg-green rounded-circle" aria-describedby="tooltip392182">Learn more</a>
                                     </div>
@@ -148,14 +146,15 @@
                         </h2>
                         <p class="text-muted">Subscribe to receive updates and exclusive offers.</p>
                         <form name="form_subscribe" action="#" method="get">
-                            <input type="email" class="form-control form-control-lg text-center width-60-percent email_sub" style="margin: 0 auto;" placeholder="Your E-mail" name="contact_email" id="contact_email"/>
+                            <input type="email" class="form-control form-control-lg text-center email_sub" style="margin: 0 auto;" placeholder="Your E-mail" name="contact_email" id="contact_email"/>
                             <div class="s_btn pt16" data-name="Button">
-                                <input type="submit" class="btn btn-success bg-green btn-md rounded-circle width-15-percent" value="Subscribe" id="subscribe" disabled="disabled"/>
+                                <input type="submit" class="btn btn-success bg-green btn-md rounded-circle" value="Subscribe" id="subscribe" disabled="disabled"/>
                             </div>
                         </form>
                     </div>
 
-                    <div id="background_cliantReview" class="s_carousel carousel slide s_carousel_default top-5-percent" data-interval="3000">
+
+                    <div id="background_cliantReview" class="s_carousel s_carousel_default carousel slide top-5-percent" data-interval="3000">
                         <ol class="carousel-indicators">
                             <li data-target="#background_cliantReview" data-slide-to="0" class="active"/>
                             <li data-target="#background_cliantReview" data-slide-to="1"/>
@@ -165,67 +164,70 @@
                             <div class="carousel-item oe_custom_bg oe_img_bg pt48 pb0 active" style="background-image: url(&quot;/ecs_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
                                 <div class="container main-body">
                                     <div class="row content">
-                                        <div class="row s_nb_column_fixed text-center" id="white">
-                                            <div class="col-lg-12 s_title" data-name="Title">
-                                                <span>What Cliant Say</span>
-                                                <br/>
-                                                <h2 class="s_title_thin o_default_snippet_text">
-                                                    <span>1 CLIENTS</span>
-                                                    <span id="green">REVIEW</span>
-                                                </h2>
-                                            </div>
-                                            <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
-                                                <img src="/ecs_website/static/src/img/icon/icon_doubleQuote.png"/>
-                                                <p class="lead o_default_snippet_text"><br/>The National Science and Technology Development Agency (NSTDA) was established in 1991. NSTDA's Principal mandate is to conduct and support research, development, and engineering, to provide technology transfer, and to develop manpower and xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                                            </div>
-                                            <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
-                                                <p class="lead o_default_snippet_text">Somboon Thunyavan <br/> Director- Square Panel Systems</p>
+                                        <div class="carousel-content">
+                                            <div class="row text-center" id="white">
+                                                <div class="col-lg-12 s_title" data-name="Title">
+                                                    <span>What Cliant Say<br/></span>
+                                                    <h2 class="s_title_default o_default_snippet_text">
+                                                        <span>1 CLIENTS</span>
+                                                        <span id="green">REVIEW</span>
+                                                    </h2>
+                                                </div>
+                                                <div class="col-lg-12 pt16 pb16">
+                                                    <img src="/ecs_website/static/src/img/icon/icon_doubleQuote.png"/>
+                                                    <p class="lead o_default_snippet_text">Use this snippet to presents your content in a slideshow-like format. Use this snippet to presents your content in a slideshow-like format Use this snippet to presents your content in a slideshow-like format Use this snippet to presents your content in a slideshow-like format Use this snippet to presents your content in a slideshow-like format<br/> Don't write about products or services here, write about solutions.</p>
+                                                </div>
+                                                <div class="col-lg-12 pt16 pb16">
+                                                    <p class="lead o_default_snippet_text">Somboon Thunyavan <br/> Director- Square Panel Systems</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item oe_custom_bg oe_img_bg pb0 pt48" style="background-image: url(&quot;/ecs_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
+                            <div class="carousel-item oe_custom_bg oe_img_bg pt48 pb0" style="background-image: url(&quot;/ecs_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
                                 <div class="container main-body">
                                     <div class="row content">
-                                        <div class="row s_nb_column_fixed text-center" id="white">
-                                            <div class="col-lg-12 s_title" data-name="Title">
-                                                <span>What Cliant Say</span>
-                                                <br/>
-                                                <h2 class="s_title_thin o_default_snippet_text">
-                                                    <span>2 CLIENTS</span>
-                                                    <span id="green">REVIEW</span>
-                                                </h2>
-                                            </div>
-                                            <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
-                                                <img src="/ecs_website/static/src/img/icon/icon_doubleQuote.png"/>
-                                                <p class="lead o_default_snippet_text"><br/>The National Science and Technology Development Agency (NSTDA) was established in 1991. NSTDA's Principal mandate is to conduct and support research, development, and engineering, to provide technology transfer, and to develop manpower and xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                                            </div>
-                                            <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
-                                                <p class="lead o_default_snippet_text">Somboon Thunyavan <br/> Director- Square Panel Systems</p>
+                                        <div class="carousel-content">
+                                            <div class="row text-center" id="white">
+                                                <div class="col-lg-12 s_title" data-name="Title">
+                                                    <span>What Cliant Say<br/></span>
+                                                    <h2 class="s_title_default o_default_snippet_text">
+                                                        <span>2 CLIENTS</span>
+                                                        <span id="green">REVIEW</span>
+                                                    </h2>
+                                                </div>
+                                                <div class="col-lg-12 pt16 pb16">
+                                                    <img src="/ecs_website/static/src/img/icon/icon_doubleQuote.png"/>
+                                                    <p class="lead o_default_snippet_text">Use this snippet to presents your content in a slideshow-like format.<br/> Don't write about products or services here, write about solutions.</p>
+                                                </div>
+                                                <div class="col-lg-12 pt16 pb16">
+                                                    <p class="lead o_default_snippet_text">Somboon Thunyavan <br/> Director- Square Panel Systems</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item oe_custom_bg oe_img_bg pb0 pt48" style="background-image: url(&quot;/ecs_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
-                                <div class="container">
+                            <div class="carousel-item oe_custom_bg oe_img_bg pt48 pb0" style="background-image: url(&quot;/ecs_website/static/src/img/background/homepage/background_cliantReview.jpg&quot;);" data-name="Slide">
+                                <div class="container main-body">
                                     <div class="row content">
-                                        <div class="row s_nb_column_fixed text-center" id="white">
-                                            <div class="col-lg-12 s_title" data-name="Title">
-                                                <span>What Cliant Say</span>
-                                                <br/>
-                                                <h2 class="s_title_thin o_default_snippet_text">
-                                                    <span>3 CLIENTS</span>
-                                                    <span id="green">REVIEW</span>
-                                                </h2>
-                                            </div>
-                                            <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
-                                                <img src="/ecs_website/static/src/img/icon/icon_doubleQuote.png"/>
-                                                <p class="lead o_default_snippet_text"><br/>The National Science and Technology Development Agency (NSTDA) was established in 1991. NSTDA's Principal mandate is to conduct and support research, development, and engineering, to provide technology transfer, and to develop manpower and xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                                            </div>
-                                            <div class="col-lg-12 s_text pt32 pb32" data-name="Text">
-                                                <p class="lead o_default_snippet_text">Somboon Thunyavan <br/> Director- Square Panel Systems</p>
+                                        <div class="carousel-content">
+                                            <div class="row text-center" id="white">
+                                                <div class="col-lg-12 s_title" data-name="Title">
+                                                    <span>What Cliant Say<br/></span>
+                                                    <h2 class="s_title_default o_default_snippet_text">
+                                                        <span>3 CLIENTS</span>
+                                                        <span id="green">REVIEW</span>
+                                                    </h2>
+                                                </div>
+                                                <div class="col-lg-12 pt16 pb16">
+                                                    <img src="/ecs_website/static/src/img/icon/icon_doubleQuote.png"/>
+                                                    <p class="lead o_default_snippet_text">Use this snippet to presents your content in a slideshow-like format.<br/> Don't write about products or services here, write about solutions.</p>
+                                                </div>
+                                                <div class="col-lg-12 pt16 pb16">
+                                                    <p class="lead o_default_snippet_text">Somboon Thunyavan <br/> Director- Square Panel Systems</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
